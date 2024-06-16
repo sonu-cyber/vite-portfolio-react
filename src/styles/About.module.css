@@ -1,0 +1,27 @@
+about.module.css
+p{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color:darkslategrey;
+   
+}
+p:hover{
+    font-size: larger;
+    font-weight: 500;
+    color:forestgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ a{
+  color:darkslategrey;
+    font-weight: 300;
+  
+  }
+  a:hover{
+    font-size: larger;
+    font-weight: 500;
+    font-variant: small-caps;
+    color:forestgreen;
+  }
+  

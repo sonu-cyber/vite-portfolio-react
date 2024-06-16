@@ -1,0 +1,16 @@
+.btn{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+    width:100px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    color:beige;
+    background-color: rgb(180, 51, 73);
+}
+.mylink.reminder{
+    border:5px solid green;
+}
