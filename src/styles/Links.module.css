@@ -1,66 +1,69 @@
-.home{
-    display:flex;
-    flex-direction: column;
-    justify-content:left;
-    text-align: left;
-    align-items: left;
-    height:fit-content;
-    color:darkslategrey;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  height: fit-content;
+  color: darkslategrey;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-p{
-    display:flex;
-    flex-direction: column;
-    justify-content:left;
-    text-align: left;
-    align-items: left;
-    margin:10px 10px;
-    padding:10px 10px;
-    color:darkslategrey;
-    font-size: medium;
-   
-}
-
-  p:hover{
-    font-weight: 300;
-    text-shadow:2px;
-    color: forestgreen;
-} 
-
-a{
-    color:darkslategrey;
-    text-decoration:none;
-    background-color: white;
-  
-}
-p.goback > a{
-    color:rgb(180, 51, 73);
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 300;
-    font-variant: small-caps;
-  }
-  .x{
-    display:inline;
-    justify-content: right;
-    align-items: flex-end;
-    margin:0px 250px;
-    padding:0px 150px;
-
-  }
- 
-  .mylink{
-    display:inline-flex;
-    align-items: center;
-    margin:10px;
-    padding:10px;
-    width:100px;
-    height:30px;
-    border:none;
-    border-radius: 5px;
-    color:beige;
-    background-color: rgb(180, 51, 73);
-   
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  color: darkslategrey;
+  font-size: medium;
 }
 
+p:hover {
+  font-weight: 300;
+  text-shadow: 2px;
+  color: forestgreen;
+}
+
+a {
+  color: darkslategrey;
+  text-decoration: none;
+  background-color: white;
+}
+p.goback > a {
+  color: rgb(180, 51, 73);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-variant: small-caps;
+}
+.x {
+  display: inline;
+  justify-content: right;
+  align-items: flex-end;
+  margin: 0px 250px;
+  padding: 0px 150px;
+}
+
+.mylink {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: beige;
+  background-color: rgb(180, 51, 73);
+}
+.navigate {
+  padding: 5px;
+  margin: 5px;
+  color: beige;
+  background-color: rgb(151, 225, 151);
+  border: 2px solid green;
+  border-radius: 5px;
+}

@@ -1,16 +1,23 @@
-a{
-    color:rgb(180, 51, 73);
-    text-decoration:none;
+a {
+  color: rgb(180, 51, 73);
+  text-decoration: none;
 }
-.goback{
-    display:flex;
-    justify-content: left;
-    align-items: left;
+.goback {
+  display: flex;
+  justify-content: left;
+  align-items: left;
 }
 
-.goback > a{
-    color:rgb(180, 51, 73);
-    font-weight: 300;
-    font-variant: small-caps;
-  }
-  
+.goback > a {
+  color: rgb(180, 51, 73);
+  font-weight: 300;
+  font-variant: small-caps;
+}
+.navigate {
+  padding: 5px;
+  margin: 5px;
+  color: beige;
+  background-color: rgb(151, 225, 151);
+  border: 2px solid green;
+  border-radius: 5px;
+}
